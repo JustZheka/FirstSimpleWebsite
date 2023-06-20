@@ -1,0 +1,31 @@
+main{
+    font-size: larger;
+}
+
+.in{
+    width: 30%; 
+    border: 1px solid #999999; 
+    padding: 5px;
+}
+
+.btn{
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 0.5em 1.2em;
+    border: 0px;
+    background: rgb(30,89,69);
+}
+
+.ulist{
+    position: absolute;
+    list-style-type: square;
+    padding-left: 6em;
+    margin-top: 0px;
+}
+
+.list-status{
+    margin-bottom: 0px;
+}
