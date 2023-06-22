@@ -11,6 +11,19 @@
                 <input class="form-text-lg" type="text" placeholder="Please input something here"/>
                 <button class="btn btn-primary">Добавить</button>
             </form>
+            <div class="Sort">
+                <input type="radio" id="NuAsc" name="SortType" value="NumAscending" autocomplete="off" checked>
+                <lable for="NuAsc">По возрастанию индекса</lable>
+
+                <input type="radio" id="NuDes" name="SortType" value="NumDescending" autocomplete="off">
+                <lable for="NuDes">По убыванию индекса</lable>
+
+                <input type="radio" id="AlphAsc" name="SortType" value="AlphAscending" autocomplete="off">
+                <lable for="AlphAsc">В алфавитном порядке по возрастанию</lable>
+
+                <input type="radio" id="AlphDes" name="SortType" value="AlphDescending" autocomplete="off">
+                <lable for="AlphDes">В алфавитном порядке по убыванию</lable>
+            </div>
             <div class="list-status">Список пуст</div>
             <ul class="list-group-item-info"></ul>
         </main>
